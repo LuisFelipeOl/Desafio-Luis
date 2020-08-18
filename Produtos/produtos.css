@@ -1,0 +1,132 @@
+configurado* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);    
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Modal */
+
+.modal {
+    position: relative;
+    left: 5%;
+    padding: 5vh;
+    padding: 5vw;
+    width: 80%;
+    box-shadow: 0 0 5px 0 #e2e2e2;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+/* Título */
+
+h1 {
+    margin: 0 0 50px 0;
+    padding: 0 0 10px 0;
+    text-align: center; 
+    font-size: 3em;
+    
+
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 1% 0;
+}
+
+table, th {
+    border: 1px solid black;
+}
+
+td {
+    border-left: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  
+table td {
+    padding: 1%;
+}
+
+.table-center  {
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: #000;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.table-center form .td-editar {
+    color: #2e2e2e;
+    padding: 1%;
+}
+
+.td-visualizar a {
+    color: lightseagreen;
+}
+
+td a:active {
+    color: rgb(112, 161, 112);
+}
+
+/* Botão */
+
+.modal .botao {
+    margin-top: 5vh;
+}
+
+.modal .botao .botao-configurado {
+    padding: 1.5%;
+    width: 12%;
+    background-color: white;
+    border: none;
+    border: solid 1px ;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.modal .botao .botao-configurado:hover {
+    background-color: #2e2e2e;
+    border: solid 1px #fff;
+    border-radius: 5%;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3498db;
+    padding: 2% 1%;
+    margin: 0px -8px 0px
+}
+
+footer .copy {
+    text-align: center;
+    color: #e2e2e2;
+}
